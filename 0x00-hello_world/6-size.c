@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+/**
+ * main
+ *
+ * Return: Always 0 (Success)
+ */
+int main(void)
+{
+	printf("%s%lu%s\n", "Size of a char: ", sizeof(char), "byte(s)");
+	printf("%s%lu%s\n", "Size of an int: ", sizeof(int), "byte(s)");
+	printf("%s%lu%s\n", "Size of a long int: ", sizeof(long), "byte(s)");
+	printf("%s%lu%s\n", "Size of a long long int: ",size
