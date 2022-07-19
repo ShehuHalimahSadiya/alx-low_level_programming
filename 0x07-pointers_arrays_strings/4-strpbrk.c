@@ -6,7 +6,7 @@
  * @s: the string
  * @accept: a set of bytes
  *
- * Retur: a pointer to the byte in s that matches one of the bytes
+ * Return: a pointer to the byte in s that matches one of the bytes
  * in accept, or Null if no such byte is found
  */
 char *_strpbrk(char *s, char *accept)
@@ -15,7 +15,7 @@ char *_strpbrk(char *s, char *accept)
 
 	for (i = 0; s[i] != '\0'; i++)
 	{
-		for (j = 0; accepts[j] != '\0'; j++)
+		for (j = 0; accept[j] != '\0'; j++)
 		{
 			if (s[i] == accept[j])
 				return (&s[i]);
@@ -23,4 +23,3 @@ char *_strpbrk(char *s, char *accept)
 	}
 	return (NULL);
 }
-			
